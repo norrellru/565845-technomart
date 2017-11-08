@@ -9,11 +9,12 @@
       <header class="main-header">
         <div class="header-top">
             <ul>
-                <li><img class="logo-header" src="http://placehold.it/150x100" width="" height="" alt=""></li>
-                <li><input type="search"></li>
-                <li><a href="">Закладки</a></li>
-                <li><a href="">Корзина</a></li>
-                <li><button>Оформить заказ</button></li>
+                <li class="header-logo"><img class="logo-header" src="http://placehold.it/150x100" width="" height="" alt=""></li>
+                <!-- не понятно тут лого картинка или текст с css -->
+                <li class="header-search"><input type="search"></li>
+                <li class="header-bookmarks"><a href="">Закладки</a></li>
+                <li class="header-basket"><a href="">Корзина</a></li>
+                <li><button class="buy">Оформить заказ</button></li>
             </ul>   
         </div>
         <div class="header-middle">
@@ -22,19 +23,19 @@
             <p class="header-text">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
             <nav class="user-navigation">
                 <ul>
-                    <li><a href="">Вход</a></li>
-                    <li><a href="">Регистрация</a></li>
+                    <li class="user-enter"><a href="">Вход</a></li>
+                    <li class="user-registration"><a href="">Регистрация</a></li>
                 </ul>
             </nav>
             <nav class="main-menu">
                 <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="company.html">Компания</a></li>
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="news.html">Новости</a></li>
-                    <li><a href="sale.html">Спецпредложения</a></li>
-                    <li><a href="delivery.html">Доставка</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li class="main-menu-item"><a href="#">Главная</a></li>
+                    <li><a class="main-menu-link main-menu-link-company" href="company.html">Компания</a></li>
+                    <li><a class="main-menu-link main-menu-link-catalog" href="catalog.html">Каталог</a></li>
+                    <li><a class="main-menu-link main-menu-link-news" href="news.html">Новости</a></li>
+                    <li><a class="main-menu-link main-menu-link-sale" href="sale.html">Спецпредложения</a></li>
+                    <li><a class="main-menu-link main-menu-link-delivery" href="delivery.html">Доставка</a></li>
+                    <li><a class="main-menu-link main-menu-link-contacts" href="contacts.html">Контакты</a></li>
                 </ul>    
             </nav>
         </div>
@@ -43,8 +44,8 @@
       
       <main class="container">
         <ul class="breadcrumbs">
-            <li><a href="catalog.html">каталог</a></li>
-            <li><a href="tools.html">инструменты</a></li>  
+            <li class="breadcrumbs-item"><a href="catalog.html">каталог</a></li>
+            <li class="breadcrumbs-item"><a href="tools.html">инструменты</a></li>  
             <li class="breadcrumbs-current">перфораторы</li>
         </ul>
         <h1 class="page-title">перфораторы</h1>
@@ -60,10 +61,10 @@
             <ul class="catalog-list">
                 <li class="catalog-item">
                     <h3>
-                        <a href="catalog-item.html">Перфоратор BOSCH BFG 3000</a>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 3000</a>
                     </h3>
                     <p class="catalog-item-image">
-                        <a href="catalog-item.html"><img src="http://placehold.it/150x100" width="" height="" alt=""></a>
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000"></a>
                     </p>
                     <p class="catalog-item-price">
                         <b>22500 Р.</b>
@@ -72,14 +73,125 @@
                         <a class="button" href="#">в закладки</a>
                     </p>
                 </li>
-                <!-- Ещё 8 карточек -->        
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 6000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>30500 Р.</b>
+                        <b>25500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 2000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>30500 Р.</b>
+                        <b>25500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 3000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>22500 Р.</b>
+                        <b>15500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 6000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>30500 Р.</b>
+                        <b>25500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 2000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>30500 Р.</b>
+                        <b>25500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 3000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>22500 Р.</b>
+                        <b>15500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 6000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>30500 Р.</b>
+                        <b>25500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a class="catalog-item-link" href="catalog-item.html">Перфоратор BOSCH BFG 2000</a>
+                    </h3>
+                    <p class="catalog-item-image">
+                        <a class="catalog-image-link" href="catalog-item.html"><img src="img/2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000"></a>
+                    </p>
+                    <p class="catalog-item-price">
+                        <b>30500 Р.</b>
+                        <b>25500 Р.</b>
+                        <a class="button" href="#">купить</a>
+                        <a class="button" href="#">в закладки</a>
+                    </p>
+                </li>
             
             </ul>
             <ul class="pagination-list">
                 <li class="pagination-item">1</li>
-                <li class="pagination-item"><a href="#">2</a></li>
-                <li class="pagination-item"><a href="#">3</a></li>
-                <li class="pagination-item"><a href="#">следующие</a></li>
+                <li class="pagination-item"><a class="pagination-item-link" href="#">2</a></li>
+                <li class="pagination-item"><a class="pagination-item-link" href="#">3</a></li>
+                <li class="pagination-item"><a class="pagination-item-link" href="#">следующие</a></li>
 
         </section>
       </main>
@@ -89,26 +201,26 @@
             <img class="logo-footer" src="http://placehold.it/150x100" width="" height="" alt="">
             <p class="footer-top-text">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8 +7 (812) 555-05-55</p>
             <nav class="footer-menu">
-                <li><a href="company.html">Компания</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="delivery.html">Доставка</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link footer-menu-link-company" href="company.html">Компания</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link footer-menu-link-news" href="news.html">Новости</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link footer-menu-link-catalog" href="catalog.html">Каталог</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link footer-menu-link-delivery" href="delivery.html">Доставка</a></li>
+                <li class="footer-menu-item"><a class="footer-menu-link footer-menu-link-contacts" href="contacts.html">Контакты</a></li>
             </nav>
             <nav class="footer-menu-other">
-                <li><a href="materials.html">Материалы</a></li>
-                <li><a href="tech.html">Техника</a></li>
-                <li><a href="inst.html">Инструмент</a></li>
-                <li><a href="delivery.html">Спецпредложения</a></li>
+                <li class="footer-menu-other-item"><a class="footer-menu-other-link" href="materials.html">Материалы</a></li>
+                <li class="footer-menu-other-item"><a class="footer-menu-other-link" href="tech.html">Техника</a></li>
+                <li class="footer-menu-other-item"><a class="footer-menu-other-link" href="inst.html">Инструмент</a></li>
+                <li class="footer-menu-other-item"><a class="footer-menu-other-link" href="delivery.html">Спецпредложения</a></li>
             </nav>
         </div>
        
         <div class="footer-bottom">
             <p class="footer-bottom-text">C 2010-2016 Компания "Техномарт"<br>Все права защищены</p>
             <ul class="social">
-                <li><a href="">vk</a></li>
-                <li><a href="">fb</a></li>
-                <li><a href="">insta</a></li>
+                <li class="social-item"><a class="social-link social-link-vk" href="">vk</a></li>
+                <li class="social-item"><a class="social-link social-link-fb" href="">fb</a></li>
+                <li class="social-item"><a class="social-link social-link-insta" href="">insta</a></li>
             </ul>
                 <!-- не соображу как сделать, по идее это оддин абзац, но цвета разные -->
             <p class="footer-bottom-text">Обратная связь<br>mail@htmlacademy.ru</p>
