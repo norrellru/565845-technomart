@@ -26,6 +26,40 @@
                     <li class="user-enter"><a href="">Вход</a></li>
                     <li class="user-registration"><a href="">Регистрация</a></li>
                 </ul>
+                
+            <h1>Форма входа на сайт</h1>
+            <form action="https://echo.htmlacademy.ru" method="post">
+                <label for="login-field">Ваш логин</label>
+                <input type="text" name="login" id="login-field">
+                <br><br>
+                <label for="password-field">Ваш пароль</label>
+                <input type="password" name="password" id="password-field">
+                <br><br>
+                <input type="submit" value="Войти">
+            </form>
+                
+            <h1>Форма регистрации на сайте</h1>
+            <form action="https://echo.htmlacademy.ru" method="post">
+                <label for="new-email">Введите вашу почту</label>
+                <input type="text" name="login" id="new-email">
+                <br><br>
+                <label for="new-login">Желаемый логин</label>
+                <input type="text" name="login" id="new-login">
+                <br><br>
+                <label for="new-password">Придумайте пароль</label>
+                <input type="password" name="password" id="new-password">
+                <br><br>
+                <label for="new-password-confirm">Повторите пароль</label>
+                <input type="password" name="password" id="new-password-confirm">
+                <br><br>
+                <input type="submit" value="Зарегистрироватся">
+            </form>
+            
+                
+
+                
+                
+                
             </nav>
             <nav class="main-menu">
                 <ul>
@@ -77,34 +111,53 @@
                 </li>
           </ul>          
           </section>
+          
+          <!-- имеет ли смысл привести классы главной страницы с товарами с товарами в каталоге? -->
           <section class="popular-items">
             <div class="items">
-              <h3>популярные товары</h3>
-                <button>все популярные товары</button>
+                <h3>популярные товары</h3>
+                <button class="button-red">все популярные товары</button>
             </div>
               <ul class="items-list">
-                <li class="item">
-                  <img class="item-img" src="img/9000.jpg" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
-                    <h4>Перфоратор BOSCH BFG 9000</h4>
-                  <p class="old-price">32500 Р.</p>
-                  <p class="new-price">25500 Р.</p>
-                </li>
-                   <li class="item">
-                  <img class="item-img" src="img/3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
-                    <h4>Перфоратор BOSCH BFG 3000</h4>
-                  <p class="old-price">22500 Р.</p>
-                  <p class="new-price">15500 Р.</p>
-                </li>
-                 <li class="item">
-                  <img class="item-img" src="img/6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
-                    <h4>Перфоратор BOSCH BFG 6000</h4>
-                  <p class="old-price">30500 Р.</p>
-                  <p class="new-price">25500 Р.</p>
-                </li>
                   <li class="item">
-                  <img class="item-img" src="img/2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
-                <h4>Перфоратор BOSCH BFG 2000</h4>
-                  <p class="new-price">12500 Р.</p>
+                    <h3>
+                        <a class="item-name" href="">Перфоратор BOSCH BFG 9000</a>
+                    </h3>
+                    <img class="item-image" src="img/9000.jpg" width="184" height="164" alt="Перфоратор BOSCH BFG 9000">
+                    <p class="item-price">32500 Р.</p>
+                    <p class="item-sale">25500 Р.</p>
+                    <a class="item-button-buy" href="#">купить</a>
+                    <a class="item-button-bookmark" href="">в закладки</a>
+                </li>
+                <li class="item">
+                    <h3>
+                        <a class="item-name" href="">Перфоратор BOSCH BFG 3000</a>
+                    </h3>
+                    <img class="item-image" src="img/3000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 3000">
+                    <p class="item-price">22500 Р.</p>
+                    <p class="item-sale">15500 Р.</p>
+                    <a class="item-button-buy" href="#">купить</a>
+                    <a class="item-button-bookmark" href="">в закладки</a>
+                </li>
+                <li class="item">
+                    <h3>
+                        <a class="item-name" href="">Перфоратор BOSCH BFG 3000</a>
+                    </h3>
+                    <img class="item-image" src="img/6000.jpg" width="144" height="128" alt="Перфоратор BOSCH BFG 6000">
+                    <p class="item-price">30500 Р.</p>
+                    <p class="item-sale">25500 Р.</p>
+                    <a class="item-button-buy" href="#">купить</a>
+                    <a class="item-button-bookmark" href="">в закладки</a>
+                </li>  
+                <li class="item">
+                    <h3>
+                        <a class="item-name" href="">Перфоратор BOSCH BFG 2000</a>
+                    </h3>
+                    <img class="item-image" src="img/2000.jpg" width="127" height="112" alt="Перфоратор BOSCH BFG 2000">
+                    <p class="item-sale">12500 Р.</p>
+                    <p class="catalog-item-lable">new</p>
+                    <a class="item-button-buy" href="#">купить</a>
+                    <a class="item-button-bookmark" href="">в закладки</a>
                 </li>
             </ul>          
             </section>
@@ -163,6 +216,7 @@
                     </a>
                   </li>
             </ul>          
+            <!--при выделении dewalt и makita отличаются от остальных, не выделяется картинка - done-->
             </section>
           
           
@@ -204,21 +258,34 @@
                     <li class="delivery-item">Автотрейдинг</li>
                     <li class="delivery-item">ЖелДорЭкспедиция</li>
                 </ul>
-                <button class="about">подробнее о компании</button>
+                <button class="button-red">подробнее о компании</button>
             </div>
             <div class="about">
               <h3>контакты</h3>
               <p class="main-page">Вы можете забрать товар сами, заехав в наш офис.</p>
               <img class="map" src="img/map-index.png" width="300" height="158" alt="Карта нашего офиса">
-              <button class="about">подробнее о компании</button>
+              <button class="button-red">заблудились? напишите нам!</button>
             </div>
+              <h1>Форма обратной связи</h1>
+            <form action="https://echo.htmlacademy.ru" method="post">
+                <label for="email-message">Ваша почта</label>
+                <input type="text" name="login" id="email-message">
+                <br><br>
+                <label for="tel-message">Ваш телефон</label>
+                <input type="text" name="login" id="tel-message">
+                <br><br>
+                <label for="text-message">Ваше сообщение</label><br>
+                <textarea id="text-message" name="message" rows="8">Текст комментария</textarea>
+                <br><br>
+                <input type="submit" value="Отправить">
+            </form>
           </section>
       </main>
       
       
-      <footer class="footer">
+       <footer class="footer">
         <div class="footer-top">  
-            <img class="logo-footer" src="http://placehold.it/150x100" width="" height="" alt="">
+            <img class="footer-logo" src="http://placehold.it/150x100" width="" height="" alt="">
             <!-- не понятно тут лого картинка или текст с css -->
             <p class="footer-top-text">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8 +7 (812) 555-05-55</p>
             <nav class="footer-menu">
@@ -243,9 +310,11 @@
                 <li class="social-item"><a class="social-link social-link-fb" href="">fb</a></li>
                 <li class="social-item"><a class="social-link social-link-insta" href="">insta</a></li>
             </ul>
-                <!-- не соображу как сделать, по идее это оддин абзац, но цвета разные -->
-            <p class="footer-bottom-text">Обратная связь<br>mail@htmlacademy.ru</p>
-            <p class="footer-bottom-text">Разработано - <br>htmlacademy.ru</p>
+                <!-- не соображу как сделать, по идее это оддин абзац, но цвета разные - done -->
+            <p class="footer-bottom-text">Обратная связь</p>
+            <p class="footer-bottom-link"><a class="footer-bottom-link link-mailto:mail@htmlacademy.ru" href="mailto:">mail@htmlacademy.ru</a>
+            <p class="footer-bottom-text">Разработано -</p>
+            <p class="footer-bottom-link"><a class="footer-bottom-link link-htmlacademy" href="">htmlacademy.ru</a>
         </div>  
       </footer>
     
