@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,400i,700&subset=cyrillic');
+
+/*
+
+font-family: 'Cuprum', sans-serif;
+font-family: 'PT Sans', sans-serif;
+
+*/
+
+body {
+    background-color: aqua; /* временно - иначе ничего не видно */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+ 
+.header-logo {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header-top li {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header-top a {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.buy {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h1.main-page {
+    font-family: 'Cuprum', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+}
+
+.header-phone {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 21px;
+    color: #ee3643;
+}
+
+.header-text {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    color: #32425c;
+}
+
+.login {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 21px;
+    color: #000000;  
+}
+
+.main-menu-link {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner-name{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+.banner-link {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.section-name {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+.button-red {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.item-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.old-price {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #a9a9a9;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.price {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+p.main-page {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+.section-name.info {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.delivery-item {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.footer-logo {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.footer-top-text {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 18px;
+   color: #ffffff; 
+}
+
+.footer-menu-link {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.footer-menu-other-link {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 18px;
+   color: #ffd180;
+}
+
+.footer-bottom-text {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 16px;
+   color: #ffffff;
+}
+
+.footer-bottom-link {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 16px;
+   color: #ffd180;
+}
+
+.user-name a {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 21px;
+   color: #000000;
+}
+
+.user-order a,
+.user-account a {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 16px;
+   color: #32425c;
+   text-decoration: underline;
+}
+
+.breadcrumbs-current {
+   font-family: 'PT Sans', sans-serif;
+   font-size: 13px;
+   color: #000000;
+}
+
+.breadcrumbs-item a {
+   font-family: 'PT Sans', sans-serif;
+   font-size: 13px;
+   color: #000000;
+}
+
+.page-title {
+   font-family: 'Cuprum', sans-serif;
+   font-size: 30px;
+   color: #000000;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.filter {
+   font-family: 'PT Sans', sans-serif;
+   font-size: 13px;
+   color: #000000;
+   text-transform: uppercase;
+}
+
+legend {
+    font-family: 'PT Sans', sans-serif;
+   font-size: 17px;
+   color: #000000;
+    font-weight: bold;
+   text-transform: uppercase;
+}
+
+.filter-button {
+    font-family: 'PT Sans', sans-serif;
+   font-size: 13px;
+   color: #000000;
+}
+
+.legend-sorting {
+    font-family: 'PT Sans', sans-serif;
+   font-size: 13px;
+   color: #000000;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.sorting-option {
+    font-family: 'PT Sans', sans-serif;
+   font-size: 13px;
+   color: #000000;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.sorting-option-red {
+    color: #ee3643;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
       
       <header class="main-header">
         <div class="header-top">
             <ul>
-                <li class="header-logo"><p class="footer-logo">техномарт</p></li>
-                <!-- не понятно тут лого картинка или текст с css -->
+                <li class="header-logo"><p class="header-logo">техномарт</p></li>
                 <li class="header-search"><input type="search"></li>
-                <li class="header-bookmarks"><a href="#">Закладки</a></li>
-                <li class="header-basket"><a href="#">Корзина</a></li>
+                <li class="header-bookmarks"><a href="#">Закладки: 0</a></li>
+                <li class="header-basket"><a href="#">Корзина: 10</a></li>
                 <li><button class="buy">Оформить заказ</button></li>
             </ul>   
         </div>
@@ -28,11 +29,12 @@
                     <li class="user-account"><a href="#">Личный кабинет</a></li>
                 </ul>
             </nav>
+            
             <nav class="main-menu">
                 <ul>
-                    <li class="main-menu-item"><a href="#">Главная</a></li>
+                    <li><a class="main-menu-link main-menu-link-company" href="#">Главная</a></li>
                     <li><a class="main-menu-link main-menu-link-company" href="#">Компания</a></li>
-                    <li><a class="main-menu-link main-menu-link-catalog" href="catalog.html">Каталог</a></li>
+                    <li><a class="main-menu-link main-menu-link-catalog" href="#">Каталог</a></li>
                     <li><a class="main-menu-link main-menu-link-news" href="#">Новости</a></li>
                     <li><a class="main-menu-link main-menu-link-sale" href="#">Спецпредложения</a></li>
                     <li><a class="main-menu-link main-menu-link-delivery" href="#">Доставка</a></li>
@@ -45,8 +47,8 @@
       
       <main class="container">
         <ul class="breadcrumbs">
-            <li class="breadcrumbs-item"><a href="catalog.html">каталог</a></li>
-            <li class="breadcrumbs-item"><a href="tools.html">инструменты</a></li>  
+            <li class="breadcrumbs-item"><a href="#">каталог</a></li>
+            <li class="breadcrumbs-item"><a href="#">инструменты</a></li>  
             <li class="breadcrumbs-current">перфораторы</li>
         </ul>
         <h1 class="page-title">перфораторы</h1>
@@ -54,13 +56,13 @@
           
           
         <section class="filters">
-            <h2 class="visually-hidden">Фильтр товаров</h2>
+            <h2 class="filter">фильтр:</h2>
             
             <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
-                    <legend>сортировка:</legend>
+                    <legend class="legend-sorting">сортировка:</legend>
                     <ul>
-                        <li class="sorting-option">
+                        <li class="sorting-option-red">
                             <a href="#">по цене</a>
                         </li>
                         <li class="sorting-option">
